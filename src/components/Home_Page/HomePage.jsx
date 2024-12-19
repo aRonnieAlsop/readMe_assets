@@ -11,17 +11,15 @@ const Home = () => {
     return (
         <div className="homepage">
             <header className="header">
+                <div className="title-box">
+                    <h1 className="magazine-title">Arron Alsop</h1>
+                </div>
                 <img
                     src="/assets/cat_woman.png"
                     alt="An image of person of interest."
                     className="cover-image"
                 />
                 <div className="content">
-                        <h1 className="title">Name LastName</h1>
-                        <h2 className="subtitle">Software Engineer</h2>
-                        <p className="description">
-                            Project portfolio for Name LastName.
-                        </p>
                 </div>
             </header>
         <div>
