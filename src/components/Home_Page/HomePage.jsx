@@ -19,7 +19,7 @@ const Home = () => {
                 <img
                     src="/assets/cat_woman.png"
                     alt="An image of person of interest."
-                    className="cover-image"
+                    className="image-strips"
                 />
                 </div>
                 <div className="content">

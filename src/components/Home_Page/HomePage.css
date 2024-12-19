@@ -20,13 +20,35 @@
     position: relative;
     margin-left: 10px;
   }
-  
-  .cover-image {
+
+  .slatted-image {
     width: 100%;
-    max-width: 600px;
-    height: auto;
-    left: 10px;
+    max-width: 1000px;
+    overflow: hidden;
     top: 300px;
+
+  }
+
+  .image-strips {
+    width: 100%;
+    height: auto;
+  /* Mask the image with horizontal slats */
+  -webkit-mask-image: repeating-linear-gradient(
+    to bottom,     /* Direction changed to vertical */
+    black 0,       /* Start of visible strip */
+    black 10px,    /* Height of each visible strip */
+    transparent 10px, /* Gap between strips */
+    transparent 20px /* Total strip height (visible + gap) */
+  );
+  -webkit-mask-size: 100% 100%;
+  mask-image: repeating-linear-gradient(
+    to bottom,
+    black 0,
+    black 10px,
+    transparent 11px,
+    transparent 10px
+  );
+  mask-size: 100% 100%;
   }
 
   .title-box {
@@ -40,11 +62,11 @@
 
   .magazine-title {
     margin: 0;
-    font-size: 6rem;
+    font-size: 15rem;
     font-family: 'Georgia', serif;
     color: #BA2C15;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
   }
 
   .cover-image {
