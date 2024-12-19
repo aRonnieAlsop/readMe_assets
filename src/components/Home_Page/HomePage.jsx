@@ -9,6 +9,7 @@ const projects = [
 
 const Home = () => {
     return (
+        <div className="content-wrapper">
         <div className="homepage">
             <header className="header">
                 <div className="title-box">
@@ -23,14 +24,7 @@ const Home = () => {
                 </div>
             </header>
         <div>
-            <h1>My Projects</h1>
-            {projects.map((project) => (
-                <div key={project.id}>
-                    <Link to={project.route}>
-                    <h2>{project.name}</h2>
-                    </Link>
-                </div>
-            ))}
+        </div>
         </div>
         </div>
     );

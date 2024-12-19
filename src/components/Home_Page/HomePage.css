@@ -1,37 +1,39 @@
 /* HomePage.css */
+.content-wrapper {
+    border: 2px solid black;
+    margin: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #E8DECD;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
 
 .homepage {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    height: 100vh;
     background-color: #E8DECD;
+    min-height: 100vh;
+    margin: 0;
     padding: 20px;
+    box-sizing: border-box;
   }
   
   .header {
     position: relative;
-    text-align: left;
-    width: 100%;
-    max-width: 700px;
+    margin-left: 10px;
   }
   
   .cover-image {
     width: 100%;
+    max-width: 600px;
     height: auto;
-    display: block;
   }
 
   .title-box {
     position: absolute;
-    top: -40px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 60px;
+    left: 20px;
     background-color: #E8DECD;
-    border: 2px solid black;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+    padding: 20px 20px;
   }
 
   .magazine-title {
@@ -49,35 +51,6 @@
     height: auto;
     margin: 0 auto;
     display: block;
+    top: 200px;
+    left: 10px;
   }
-  
-  .content {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  }
-  
-  .title {
-    font-size: 4rem; 
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    letter-spacing: 5px;
-  }
-  
-  .subtitle {
-    font-size: 2rem;
-    margin: 10px 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .description {
-    font-size: 1.5rem;
-    font-weight: 300;
-    font-family: 'Georgia', serif;
-    margin-top: 10px;
-  }
-  
