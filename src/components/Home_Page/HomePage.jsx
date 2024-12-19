@@ -12,7 +12,7 @@ const Home = () => {
         <div className="homepage">
             <header className="header">
                 <div className="title-box">
-                    <h1 className="magazine-title">Arron Alsop</h1>
+                    <h1 className="magazine-title">Cat Woman</h1>
                 </div>
                 <img
                     src="/assets/cat_woman.png"

@@ -1,18 +1,20 @@
 /* HomePage.css */
 
 .homepage {
-    font-family: 'Georgia', serif; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     height: 100vh;
     background-color: #E8DECD;
+    padding: 20px;
   }
   
   .header {
-    text-align: center;
     position: relative;
+    text-align: left;
     width: 100%;
+    max-width: 700px;
   }
   
   .cover-image {
