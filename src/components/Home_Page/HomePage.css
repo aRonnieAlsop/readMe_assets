@@ -7,74 +7,67 @@
     min-height: 100vh;
     box-sizing: border-box;
   }
-
-.homepage {
+  
+  .homepage {
     background-color: #E8DECD;
     min-height: 100vh;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
+  
+    /* Flexbox for layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
   }
   
-  .header {
-    position: relative;
-    margin-left: 10px;
-  }
-
-  .slatted-image {
-    width: 100%;
-    max-width: 1000px;
-    overflow: hidden;
-    top: 300px;
-
-  }
-
-  .image-strips {
-    width: 100%;
-    height: auto;
-  /* Mask the image with horizontal slats */
-  -webkit-mask-image: repeating-linear-gradient(
-    to bottom,     /* Direction changed to vertical */
-    black 0,       /* Start of visible strip */
-    black 10px,    /* Height of each visible strip */
-    transparent 10px, /* Gap between strips */
-    transparent 20px /* Total strip height (visible + gap) */
-  );
-  -webkit-mask-size: 100% 100%;
-  mask-image: repeating-linear-gradient(
-    to bottom,
-    black 0,
-    black 10px,
-    transparent 11px,
-    transparent 10px
-  );
-  mask-size: 100% 100%;
-  }
-
+  /* Title Box */
   .title-box {
-    position: absolute;
-    top: 60px;
-    left: 20px;
     background-color: #E8DECD;
-    border: 3px solid black;
-    padding: 20px 20px;
+    border: 5px solid black;
+    padding: 20px;
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    text-align: left;
   }
-
+  
   .magazine-title {
     margin: 0;
-    font-size: 15rem;
+    font-size: 15rem; 
     font-family: 'Georgia', serif;
     color: #BA2C15;
     text-transform: uppercase;
     letter-spacing: 8px;
   }
-
-  .cover-image {
+  
+  /* Image Wrapper */
+  .slatted-image {
     width: 100%;
-    max-width: 800px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    top: 200px;
-    left: 10px;
+    max-width: 1000px;
+    margin-left: 20px; 
+    overflow: hidden;
   }
+  
+  .image-strips {
+    width: 100%;
+    height: auto;
+  
+    /* Mask the image with horizontal slats */
+    -webkit-mask-image: repeating-linear-gradient(
+      to bottom,
+      black 0,
+      black 10px,
+      transparent 10px,
+      transparent 20px
+    );
+    -webkit-mask-size: 100% 100%;
+    mask-image: repeating-linear-gradient(
+      to bottom,
+      black 0,
+      black 10px,
+      transparent 11px,
+      transparent 10px
+    );
+    mask-size: 100% 100%;
+  }
+  
