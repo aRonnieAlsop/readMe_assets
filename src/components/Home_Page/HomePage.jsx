@@ -15,11 +15,13 @@ const Home = () => {
                 <div className="title-box">
                     <h1 className="magazine-title">Cat Woman</h1>
                 </div>
+                <div className="slatted-image">
                 <img
                     src="/assets/cat_woman.png"
                     alt="An image of person of interest."
                     className="cover-image"
                 />
+                </div>
                 <div className="content">
                 </div>
             </header>
