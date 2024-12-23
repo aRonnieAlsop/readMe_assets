@@ -11,6 +11,12 @@ const Home = () => {
     return (
         <div className="content-wrapper">
         <div className="homepage">
+            <div className="info-bar">
+                <span className="volume-info"><div className="volume-info">Vol. 12, issue 4</div></span> 
+            </div>
+            <div>
+              <div className="date-info">September - December, 1988</div>  
+            </div>
             <header className="header">
                 <div className="title-box">
                     <h1 className="magazine-title">Cat Woman</h1>
