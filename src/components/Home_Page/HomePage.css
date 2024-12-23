@@ -39,7 +39,7 @@
   .date-info {
     font-size: 1.5rem; 
     font-weight: bold;
-    margin-left: auto;
+    margin-left: 1000px;
   }
   
   .title-box {
@@ -63,7 +63,7 @@
   .slatted-image {
     width: 100%;
     max-width: 1000px;
-    margin-left: 20px; 
+    margin-left: 220px; 
     overflow: hidden;
   }
   
@@ -85,7 +85,7 @@
       black 0,
       black 10px,
       transparent 11px,
-      transparent 10px
+      transparent 12px
     );
     mask-size: 100% 100%;
   }
