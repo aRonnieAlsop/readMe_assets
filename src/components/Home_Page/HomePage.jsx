@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             <header className="header">
                 <div className="title-box">
-                    <h1 className="magazine-title">CAT WOMAN</h1>
+                    <h1 className="magazine-title">ARRON ALSOP</h1>
                     <div className="stacked-boxes">
                     <div className="box">Full-Stack</div>
                     <div className="box">Software</div>

@@ -46,7 +46,7 @@
 .stacked-boxes {
   position: absolute;
   top: 0;
-  right: -320px;
+  right: -300px;
   bottom: 0; 
   transform: translateY(0); 
   display: flex;
