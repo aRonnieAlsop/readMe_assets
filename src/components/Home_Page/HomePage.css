@@ -42,12 +42,13 @@
 
 .stacked-boxes {
   position: absolute;
-  top: 50%;
-  right: 0; 
-  transform: translateY(-50%); 
+  top: 0;
+  right: 0;
+  bottom: 0; 
+  transform: translateY(0); 
   display: flex;
   flex-direction: column;
-  gap: 80px; 
+  justify-content: space-between;
 }
 
 
