@@ -51,7 +51,37 @@
     margin-bottom: 20px; 
     margin-left: 20px; 
     text-align: left;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  /* Stacked boxes container */
+.stacked-boxes {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 10px; /* Space between boxes */
+  margin-left: auto; /* Push to the far-right */
+}
+
+/* Individual box styling */
+.box {
+  width: 70px; /* Set the width of each box */
+  height: 40px; /* Set the height of each box */
+  border: 2px solid black; /* Outline the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  background-color: #E8DECD; /* Match background */
+  box-sizing: border-box;
+}
   
   .magazine-title {
     margin: 0;

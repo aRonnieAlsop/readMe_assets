@@ -18,6 +18,11 @@ const Home = () => {
                 <div className="title-box">
                     <h1 className="magazine-title">Cat Woman</h1>
                 </div>
+                <div className="stacked-boxes">
+                    <div className="box">Full-Stack</div>
+                    <div className="box">Software</div>
+                    <div className="box">Engineer</div>
+                </div>
                 <div className="slatted-image">
                 <img
                     src="/assets/cat_woman.png"
