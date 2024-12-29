@@ -59,11 +59,21 @@
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: transparent;
+  color: #E8DECD;
   background-color: black;
-  -webkit-background-clip: text;
-  background-clip: text;
   box-sizing: border-box;
+  position: relative;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #E8DECD;
+  z-index: -1;
 }
 
 .info-bar {
