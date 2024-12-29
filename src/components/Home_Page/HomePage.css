@@ -23,8 +23,8 @@
 
 .title-box {
   background-color: #E8DECD;
-  border: 5px solid black;
-  padding: 20px;
+  border: 3px solid black;
+  padding: 1px;
   margin-bottom: 20px;
   margin-left: 20px;
   text-align: left;
@@ -32,8 +32,8 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
-  min-width: 900px; 
+  align-items: flex-start;  
+  font-size: 11rem;
 }
 
 
@@ -51,7 +51,7 @@
 .box {
   width: 70px; 
   height: 40px; 
-  border: 2px solid black;
+  border: 4px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,8 +59,10 @@
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: black;
-  background-color: #E8DECD;
+  color: transparent;
+  background-color: black;
+  -webkit-background-clip: text;
+  background-clip: text;
   box-sizing: border-box;
 }
 
@@ -98,7 +100,6 @@
     width: 100%;
     height: auto;
   
-    /* Mask the image with horizontal slats */
     -webkit-mask-image: repeating-linear-gradient(
       to bottom,
       black 0,
