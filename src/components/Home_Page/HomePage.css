@@ -1,4 +1,4 @@
-/* HomePage.css */
+
 .content-wrapper {
     border: 2px solid black;
     margin-right: 360px;
@@ -21,56 +21,37 @@
     align-items: flex-start; 
   }
 
-  .info-bar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    margin: 0px 20px 10px 20px; 
-    font-family: 'Georgia', serif;
-    color: black;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
-  
-  /* Volume info on the left */
-  .volume-info {
-    font-weight: bold;
-  }
-  
-  /* Date info on the right */
-  .date-info {
-    font-size: 1.5rem; 
-    font-weight: bold;
-    margin-left: 1000px;
-  }
-  
-  .title-box {
-    background-color: #E8DECD;
-    border: 5px solid black;
-    padding: 20px;
-    margin-bottom: 20px; 
-    margin-left: 20px; 
-    text-align: left;
-    position: relative;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* Stacked boxes container */
-.stacked-boxes {
+.title-box {
+  background-color: #E8DECD;
+  border: 5px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: left;
+  position: relative;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  gap: 10px; /* Space between boxes */
-  margin-left: auto; /* Push to the far-right */
+  justify-content: space-between;
+  align-items: flex-start; 
+  min-width: 900px; 
 }
 
-/* Individual box styling */
+
+.stacked-boxes {
+  position: absolute;
+  top: 50%;
+  right: 0; 
+  transform: translateY(-50%); 
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+
 .box {
-  width: 70px; /* Set the width of each box */
-  height: 40px; /* Set the height of each box */
-  border: 2px solid black; /* Outline the box */
+  width: 70px; 
+  height: 40px; 
+  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,18 +60,32 @@
   font-weight: bold;
   text-transform: uppercase;
   color: black;
-  background-color: #E8DECD; /* Match background */
+  background-color: #E8DECD;
   box-sizing: border-box;
 }
-  
-  .magazine-title {
-    margin: 0;
-    font-size: 15rem; 
-    font-family: 'Georgia', serif;
-    color: #BA2C15;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-  }
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 10px 20px;
+  font-family: 'Georgia', serif;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.volume-info {
+  font-weight: bold;
+}
+
+.date-info {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0; 
+  text-align: right; 
+}
+
   
   .slatted-image {
     width: 100%;
