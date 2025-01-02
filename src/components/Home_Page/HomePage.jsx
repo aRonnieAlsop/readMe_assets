@@ -13,7 +13,10 @@ const Home = () => {
                 </div>
                 <header className="header">
                     <div className="title-box">
-                        <h1 className="magazine-title">CAT WOMAN</h1>
+                        <div className="title-container">                        
+                            <h1 className="magazine-title">CAT WOMAN</h1>
+                            <h2 className="magazine-subtitle">Software Engineer</h2>
+                            </div>
                         <div className="stacked-boxes">
                             <Link to="/projects" className="box">Projects</Link>
                             <Link to="/websites" className="box">Websites</Link>
