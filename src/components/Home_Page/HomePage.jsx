@@ -14,7 +14,7 @@ const Home = () => {
                 <header className="header">
                     <div className="title-box">
                         <div className="title-container">                        
-                            <h1 className="magazine-title">CAT WOMAN</h1>
+                            <h1 className="magazine-title">ARRON Alsop</h1>
                             <h2 className="magazine-subtitle">Software Engineer</h2>
                             </div>
                         <div className="stacked-boxes">
