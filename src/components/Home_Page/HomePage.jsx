@@ -15,9 +15,9 @@ const Home = () => {
                     <div className="title-box">
                         <h1 className="magazine-title">CAT WOMAN</h1>
                         <div className="stacked-boxes">
-                            <div className="box">Full-Stack</div>
-                            <div className="box">Software</div>
-                            <div className="box">Engineer</div>
+                            <Link to="/projects" className="box">Projects</Link>
+                            <Link to="/websites" className="box">Websites</Link>
+                            <Link tp="/blog" className="box">Blog</Link>
                         </div>
                     </div>
                     <div className="media-container">
@@ -29,10 +29,7 @@ const Home = () => {
                             />
                         </div>
                         <div className="nav-links">
-                            <Link to="/">Project 1</Link>
-                            <Link to="/projects">Project Deux</Link>
-                            <Link to="/about">Most Amazing Project Ever</Link>
-                            <Link to="/contact">Blog</Link>
+                            <Link to="/robots">Robot Videos</Link>
                         </div>
                     </div>
                 </header>
