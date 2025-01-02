@@ -31,6 +31,15 @@ const Home = () => {
                                 className="image-strips"
                             />
                         </div>
+                    <div className="tech-stack-box">
+                        <div className="screen-header">Tech Stack</div>
+                        <div className="screen-header">Full-Stack Web Developer</div>
+                        <div className="screen-header">BloomTech Graduate 2024</div>
+                        <div className="screen-content">
+                            JavaScript, React, Jest, Cypress, HTML, CSS, Node.js, Express, SQL, PostgreSQL, Python, GitHub, VS Code, Heroku
+                            <span className="cursor">▋</span>
+                        </div>
+                    </div>
                     </div>
                 </header>
 
