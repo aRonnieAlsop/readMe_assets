@@ -192,8 +192,8 @@
 
 .tech-stack-box {
   width: 900px;
-  height: 1200px;
-  background-image: url('./../../assets/pictures/old_computer.jpg');
+  height: 625px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./../../assets/pictures/old_computer.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -204,7 +204,7 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
   color: #00ff00;
-  margin-top: -500px;
+  margin-top: -1090px;
 }
 
 .tech-stack-all-headers {
