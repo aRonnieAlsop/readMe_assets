@@ -78,6 +78,15 @@
   position: relative;
 }
 
+.box:hover {
+  background-image: url('./../../assets/pictures/bubble_background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  border-color: rgba(255, 255, 255, 0.8); 
+  color: #E8DECD; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.8); 
+}
+
 .stacked-boxes .box:first-child {
   font-size: 2rem;
 }
