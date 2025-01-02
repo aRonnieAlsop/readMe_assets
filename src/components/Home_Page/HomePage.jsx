@@ -7,7 +7,9 @@ const Home = () => {
         <div className="content-wrapper">
         <div className="homepage">
             <div className="info-bar">
-                <span className="volume-info"><div className="volume-info">Project Portfolio</div></span> 
+                <span className="volume-info">
+                    Project Portfolio
+                </span> 
             </div>
             <header className="header">
                 <div className="title-box">
@@ -25,11 +27,13 @@ const Home = () => {
                     className="image-strips"
                 />
                 </div>
-                <div className="content">
+                <div className="nav-links">
+                        <Link to="/">Home</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/contact">Contact</Link>
                 </div>
             </header>
-        <div>
-        </div>
         </div>
         </div>
     );
