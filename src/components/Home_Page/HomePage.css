@@ -203,7 +203,7 @@
   padding: 10px;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  color: #00ff00;
+  color: #00FF66;
   margin-top: -1090px;
 }
 
@@ -212,10 +212,9 @@
 }
 
 .screen-header {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
-  margin-bottom: 10px;
-  color: #00ff00;
+  color: #00FF66;
   letter-spacing: 0.1em;
 }
 
@@ -224,8 +223,8 @@
   line-height: 1.5;
   overflow-y: auto; 
   text-align: left;
-  padding-top: 20px;
-  width: 75%;
+  padding-top: 25px;
+  width: 73%;
 }
 
 .cursor {
