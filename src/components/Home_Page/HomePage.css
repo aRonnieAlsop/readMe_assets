@@ -52,8 +52,13 @@
   justify-content: space-between;
   font-family: Roboto;
   letter-spacing: 0em;
+  text-decoration: none;
 }
 
+.nav-links a {
+  text-decoration: none;
+  font-family: Roboto;
+}
 
 .box {
   width: 300px;
@@ -66,6 +71,7 @@
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
   color: #E8DECD;
   background-color: #18130E;
   box-sizing: border-box;
@@ -155,21 +161,3 @@
   mask-size: 100% 100%;
 }
 
-/* Navigation links styling */
-.nav-links {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  font-size: 4.4rem;
-  margin-bottom: 100px;
-  font-family: 'Georgia', serif;
-  text-transform: uppercase;
-  font-family: Roboto;
-}

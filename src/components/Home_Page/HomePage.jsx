@@ -17,7 +17,7 @@ const Home = () => {
                         <div className="stacked-boxes">
                             <Link to="/projects" className="box">Projects</Link>
                             <Link to="/websites" className="box">Websites</Link>
-                            <Link tp="/blog" className="box">Blog</Link>
+                            <Link to="/blog" className="box">Blog</Link>
                         </div>
                     </div>
                     <div className="media-container">
@@ -27,9 +27,6 @@ const Home = () => {
                                 alt="An image of person of interest."
                                 className="image-strips"
                             />
-                        </div>
-                        <div className="nav-links">
-                            <Link to="/robots">Robot Videos</Link>
                         </div>
                     </div>
                 </header>
