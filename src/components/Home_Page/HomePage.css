@@ -1,9 +1,7 @@
 
 .content-wrapper {
     border: 2px solid black;
-    margin-right: 20px;
-    margin-left:  15px;
-    margin-top: 30px;
+    margin: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #E8DECD;
     min-height: 100vh;
@@ -13,12 +11,12 @@
   .homepage {
     background-color: #E8DECD;
     min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: flex-start; 
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
   }
 
 .title-box {
@@ -40,6 +38,7 @@
   color: #8B0000;
   font-family: "Bebas Neue", serif;
   letter-spacing: 0.1em;
+  flex-grow: 1;
 }
 
 
@@ -117,10 +116,9 @@
 
   
   .slatted-image {
-    width: 50%;
-    max-width: 1000px;
-    margin-left: 20px; 
-    overflow: hidden;
+    width: 300px;
+    margin-right: 20px;
+    flex-shrink: 0;
   }
   
   .image-strips {
@@ -150,9 +148,9 @@
   display: flex;
   flex-direction: column; 
   margin-left: 20px;
+  width: 200px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 250px;
 }
 
 .nav-links a {
