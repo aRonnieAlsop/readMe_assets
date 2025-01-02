@@ -28,10 +28,10 @@ const Home = () => {
                 />
                 </div>
                 <div className="nav-links">
-                        <Link to="/">Home</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/">Project 1</Link>
+                        <Link to="/projects">Project Deux</Link>
+                        <Link to="/about">Most Amazing Project Ever</Link>
+                        <Link to="/contact">Blog</Link>
                 </div>
             </header>
         </div>
