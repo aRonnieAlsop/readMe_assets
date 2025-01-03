@@ -90,7 +90,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #E8DECD;
-  background-image: url('./../../assets/pictures/black_leather.jpg');
+  /* background-image: url('./../../assets/pictures/black_leather.jpg'); */
   background-color: #18130E; /* in case the background-image doesn't load */
   box-sizing: border-box;
   position: relative;
@@ -238,5 +238,11 @@
 @keyframes blink {
   50% {
       opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: red;
   }
 }

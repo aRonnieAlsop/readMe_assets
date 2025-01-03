@@ -31,7 +31,7 @@ const Home = () => {
                                 className="image-strips"
                             />
                         </div>
-                    <div className="tech-stack-box">
+                    {/* <div className="tech-stack-box">
                         <div className="tech-stack-all-headers">
                         <div className="screen-header">Tech Stack</div>
                         <div className="screen-header">Full-Stack Web Developer</div>
@@ -41,7 +41,7 @@ const Home = () => {
                             JavaScript, React, Jest, Cypress, HTML, CSS, Node.js, Express, SQL, PostgreSQL, Python, GitHub, VS Code, Heroku
                             <span className="cursor">▋</span>
                         </div>
-                    </div>
+                    </div> */}
                     </div>
                 </header>
 
