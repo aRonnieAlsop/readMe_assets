@@ -14,8 +14,8 @@ const Home = () => {
                 <header className="header">
                     <div className="title-box">
                         <div className="title-container">                        
-                            <h1 className="magazine-title">ARRON Alsop</h1>
-                            <h2 className="magazine-subtitle">Software Engineer</h2>
+                            <h1>ARRON Alsop</h1>
+                            <h2 className="subtitle">Software Engineer</h2>
                             </div>
                         <div className="stacked-boxes">
                             <Link to="/projects" className="box">Projects</Link>
@@ -31,17 +31,17 @@ const Home = () => {
                                 className="image-strips"
                             />
                         </div>
-                    {/* <div className="tech-stack-box">
-                        <div className="tech-stack-all-headers">
+                    <div className="tech-stack-box">
+                        {/* <div className="tech-stack-all-headers">
                         <div className="screen-header">Tech Stack</div>
                         <div className="screen-header">Full-Stack Web Developer</div>
-                        <div className="screen-header">BloomTech Graduate 2024</div>
-                        </div>
+                        <div className="screen-header">BloomTech Graduate 2024</div> */}
+                        {/* </div> */}
                         <div className="screen-content">
                             JavaScript, React, Jest, Cypress, HTML, CSS, Node.js, Express, SQL, PostgreSQL, Python, GitHub, VS Code, Heroku
                             <span className="cursor">▋</span>
                         </div>
-                    </div> */}
+                    </div>
                     </div>
                 </header>
 
