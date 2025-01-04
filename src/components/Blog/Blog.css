@@ -1,0 +1,7 @@
+.blog-container {
+    font-size: 5rem;
+    color: black;
+    background-color: red;
+    text-align: center; /* Optional: Center-align text for better visibility */
+    padding: 2rem; /* Optional: Add some spacing for aesthetic */
+}
